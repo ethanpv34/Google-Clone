@@ -1,0 +1,47 @@
+.search-link {
+  font-weight: 400;
+  font-size: 25px;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  text-decoration: none;
+}
+.search-item {
+  margin-bottom: 40px;
+  width: 700px;
+}
+
+.search-item p {
+  color: gray;
+  font-weight: 350;
+}
+
+#top-link {
+  color: black;
+}
+
+@media (max-width: 500px) {
+  .search-link {
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    text-decoration: none;
+  }
+  .search-item {
+    margin-bottom: 40px;
+    width: 350px;
+  }
+}
+@media (max-width: 425px) {
+  .search-link {
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    text-decoration: none;
+  }
+  .search-item {
+    margin-bottom: 40px;
+    width: 250px;
+  }
+}

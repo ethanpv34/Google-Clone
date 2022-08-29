@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.logo {
+  width: 400px;
+}
+
+@media (max-width: 500px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  .logo {
+    width: 200px;
+  }
+}
+
+@media (max-width: 350px) {
+  .logo {
+    width: 150px;
+  }
+}

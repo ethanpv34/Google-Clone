@@ -1,0 +1,42 @@
+.searchbar {
+  width: 500px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  flex: 1;
+  margin-left: 20px;
+}
+
+@media (max-width: 700px) {
+  .searchbar {
+    width: 400px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .searchbar {
+    width: 300px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+  }
+  .input {
+    flex: 1;
+    margin-left: 5px;
+  }
+}
+
+@media (max-width: 400px) {
+  .searchbar {
+    width: 250px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+  }
+}
